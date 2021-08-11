@@ -1,0 +1,30 @@
+{
+  "id": "2734192",
+  "name": "shiyanzhongxin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7981896",
+      "name": "download",
+      "font_class": "download",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "13287775",
+      "name": "home",
+      "font_class": "xuanzhongshangcheng",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "14138720",
+      "name": "file",
+      "font_class": "file",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    }
+  ]
+}

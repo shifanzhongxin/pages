@@ -1,0 +1,194 @@
+/*main*/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+#main {
+    width: 960px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+#main .left {
+    float: left;
+    width: 198px;
+}
+
+#main .left ul li {
+    list-style: none;
+}
+
+#main .left .imgs .first {
+    margin-top: 30px;
+}
+
+#main .left .table {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#main .left .table li {
+    display: block;
+    width: 161px;
+    height: 19.5px;
+    padding: 8px;
+    border: 1px solid gray;
+    list-style: none;
+}
+
+#main .left .table .first {
+    background-color: #e3effe;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#main .left .table li a {
+    display: inline;
+    color: #337ab7;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 19.5px;
+}
+
+#main .left .table li a:hover {
+    text-decoration: underline;
+}
+
+#main .right {
+    float: right;
+    width: 730px;
+}
+
+#main .right .title {
+    font-size: 0;
+    margin-right: 10px;
+}
+
+#main .right .title #title1 {
+    background-color: #339933;
+}
+
+#main .right .title li {
+    display: inline-block;
+    width: 240px;
+    height: 26px;
+    margin-top: 10px;
+    background-color: #6699cc;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "宋体";
+    text-align: center;
+    line-height: 26px;
+}
+
+#main .right #content1,
+#main .right #content2,
+#main .right #content3 {
+    width: 735px;
+    height: 246.4px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#main .right #content1 {
+    display: block;
+}
+
+#main .right #content2 {
+    display: none;
+}
+
+#main .right #content3 {
+    display: none;
+}
+
+#main .right #content1 p {
+    font-size: 14.67px;
+    line-height: 1.5em;
+    text-indent: 2em;
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+}
+
+#main .right #content1 img {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#main .right #content2 h5 {
+    font-size: 14.67px;
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#main .right #content2 img {
+    float: right;
+    margin: 20px;
+    width: 150px;
+    height: 161px;
+}
+
+#main .right #content2 p {
+    font-size: 14.67px;
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-indent: 2em;
+}
+
+#main .right #content3 p {
+    font-size: 14.67px;
+    font-family: "宋体", Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-indent: 2em;
+}
+
+#main .right .first {
+    width: 701px;
+    height: 19.5px;
+    background-color: #dfeafe;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid gray;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#main .right #roll {
+    position: relative;
+    width: 701px;
+    height: 167.5px;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+
+#main .right #roll #imglist {
+    position: absolute;
+    left: 0;
+    width: 1705px;
+}
+
+#main .right #roll ul li {
+    float: left;
+    list-style: none;
+    width: 155px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#main .right #roll ul li img {
+    width: 150px;
+    height: 140px;
+
+}

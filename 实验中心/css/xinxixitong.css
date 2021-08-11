@@ -1,0 +1,37 @@
+#rightside #rightTitle {
+    width: 588px;
+    height: 30px;
+    border-bottom: 1px solid #898989;
+    margin: 0 auto;
+}
+
+#rightside #rightTitle a {
+    color: black;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+#rightside .page {
+    float: right;
+    width: 690px;
+    height: 20.8px;
+    border-top: 1px dashed #eee;
+    margin-right: 15px;
+    font-size: 12px;
+    text-align: right;
+}
+
+#rightside .page span,
+#rightside .page a {
+    margin-left: 5px;
+}
+
+#rightside .page a {
+    color: black;
+    text-decoration: none;
+}
+
+#rightside .page a:hover {
+    color: red;
+}

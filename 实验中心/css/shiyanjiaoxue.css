@@ -1,0 +1,16 @@
+#rightside #RightTitle {
+    width: 588px;
+    height: 30px;
+    /* border-bottom: 1px solid #898989; */
+    margin: 0 auto;
+}
+
+#rightside #RightTitle a {
+    color: black;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+}
+#rightside #rightHead{
+    height: 0;
+}
